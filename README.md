@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🌍 Air Quality Comparison App (AQI)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern React Native app that compares real-time air quality between cities (Douliu 🇹🇼 vs Dallas 🇺🇸) using live environmental data.
 
-## Get started
+---
 
-1. Install dependencies
+# 🍎 Preview
 
-   ```bash
-   npm install
-   ```
+> Apple-style UI • Real-time AQI • Multi-station analysis
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+# 📱 Features
 
-In the output, you'll find options to open the app in a
+- 🌍 Real-time AQI data from WAQI API
+- 🇹🇼 Taiwan vs 🇺🇸 USA air quality comparison
+- 📊 Automatic pollution comparison result
+- 🍎 Apple-inspired UI design (glassmorphism style)
+- 🌈 Color-coded AQI levels
+- 📡 Multi-station averaging (top 5 stations)
+- 🈯 Bilingual support (English / 中文)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# 🧠 Core Idea
 
-## Get a fresh project
+This project visualizes and compares air quality data between different cities using live API data and provides an intuitive user experience for environmental awareness.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+# 🌎 Data Source
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- World Air Quality Index (WAQI)
+  https://waqi.info/
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+# ⚙️ Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- React Native (Expo)
+- TypeScript
+- WAQI API
+- Git / GitHub
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+# 📊 AQI Categories
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| AQI Range | Level | Color |
+|----------|------|------|
+| 0–50 | Good | 🟢 Green |
+| 51–100 | Moderate | 🟡 Yellow |
+| 101–150 | Unhealthy for Sensitive | 🟠 Orange |
+| 151+ | Unhealthy | 🔴 Red |
+
+---
+
+# 📱 Screenshots
+
+> (Add your screenshots here)
