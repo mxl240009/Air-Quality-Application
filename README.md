@@ -1,41 +1,41 @@
-# 🌍 Air Quality Comparison App (AQI)
+# Air Quality Comparison App (AQI)
 
 A modern React Native app that compares real-time air quality between cities (Douliu 🇹🇼 vs Dallas 🇺🇸) using live environmental data.
 
 ---
 
-# 🍎 Preview
+# Preview
 
 > Apple-style UI • Real-time AQI • Multi-station analysis
 
 ---
 
-# 📱 Features
+# Features
 
-- 🌍 Real-time AQI data from WAQI API
-- 🇹🇼 Taiwan vs 🇺🇸 USA air quality comparison
-- 📊 Automatic pollution comparison result
-- 🍎 Apple-inspired UI design (glassmorphism style)
-- 🌈 Color-coded AQI levels
-- 📡 Multi-station averaging (top 5 stations)
-- 🈯 Bilingual support (English / 中文)
+- Real-time AQI data from WAQI API
+- Taiwan vs 🇺🇸 USA air quality comparison
+- Automatic pollution comparison result
+- Apple-inspired UI design (glassmorphism style)
+- Color-coded AQI levels
+- Multi-station averaging (top 5 stations)
+- Bilingual support (English / 中文)
 
 ---
 
-# 🧠 Core Idea
+# Core Idea
 
 This project visualizes and compares air quality data between different cities using live API data and provides an intuitive user experience for environmental awareness.
 
 ---
 
-# 🌎 Data Source
+# Data Source
 
 - World Air Quality Index (WAQI)
   https://waqi.info/
 
 ---
 
-# ⚙️ Tech Stack
+# Tech Stack
 
 - React Native (Expo)
 - TypeScript
@@ -44,7 +44,7 @@ This project visualizes and compares air quality data between different cities u
 
 ---
 
-# 📊 AQI Categories
+# AQI Categories
 
 | AQI Range | Level | Color |
 |----------|------|------|
